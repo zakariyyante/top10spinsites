@@ -1,0 +1,38 @@
+<svg width="640" height="160" viewBox="0 0 640 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="160" fill="#050a14"/>
+  <!-- Glow -->
+  <circle cx="80" cy="80" r="60" fill="#00d2ff" fill-opacity="0.1" filter="blur(20px)"/>
+  
+  <!-- "10" Circle -->
+  <circle cx="80" cy="80" r="45" fill="url(#paint0_linear)" stroke="#00d2ff" stroke-width="2"/>
+  <text x="80" y="92" text-anchor="middle" font-family="Arial" font-weight="900" font-style="italic" font-size="42" fill="url(#paint1_linear)">10</text>
+  
+  <!-- Crown -->
+  <text x="80" y="45" text-anchor="middle" font-size="30">👑</text>
+  
+  <!-- Spade -->
+  <circle cx="115" cy="105" r="12" fill="#7c3aed" stroke="white" stroke-width="1"/>
+  <text x="115" y="110" text-anchor="middle" font-size="12" fill="white">♠</text>
+
+  <!-- Wordmark -->
+  <text x="150" y="95" font-family="Arial" font-weight="900" font-style="italic" font-size="72" letter-spacing="-4">
+    <tspan fill="#00d2ff">top10</tspan><tspan fill="#7c3aed">spin</tspan><tspan fill="#00d2ff">sites</tspan>
+  </text>
+  
+  <text x="150" y="130" font-family="Arial" font-weight="900" font-size="12" letter-spacing="8" fill="rgba(255,255,255,0.2)">
+    PREMIUM CASINO REVIEWS
+  </text>
+
+  <defs>
+    <linearGradient id="paint0_linear" x1="35" y1="35" x2="125" y2="125" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00d2ff"/>
+      <stop offset="0.5" stop-color="#008fb3"/>
+      <stop offset="1" stop-color="#050a14"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="50" y1="50" x2="110" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffd700"/>
+      <stop offset="0.5" stop-color="#fff7ad"/>
+      <stop offset="1" stop-color="#b8860b"/>
+    </linearGradient>
+  </defs>
+</svg>
