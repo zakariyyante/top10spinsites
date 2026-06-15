@@ -8,14 +8,20 @@ import BrandCard from './BrandCard';
 interface MobileModalProps {
   brands: Brand[];
   gclid?: string;
+  isMobileDevice: boolean;
 }
 
-export default function MobileModal({ brands, gclid }: MobileModalProps) {
+export default function MobileModal({ brands, gclid, isMobileDevice }: MobileModalProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const hasMobileBrands = brands.some(b => b.isMobile);
-    if (gclid && hasMobileBrands) {
+    
+    // Show modal ONLY if:
+    // 1. It's a mobile device
+    // 2. gclid is present and non-empty
+    // 3. There are mobile-specific brands to show
+    if (isMobileDevice && gclid && hasMobileBrands) {
       setIsOpen(true);
       document.body.style.overflow = 'hidden';
     }
@@ -23,7 +29,7 @@ export default function MobileModal({ brands, gclid }: MobileModalProps) {
     return () => {
       document.body.style.overflow = 'unset';
     };
-  }, [gclid, brands]);
+  }, [brands, gclid, isMobileDevice]);
 
   if (!isOpen) return null;
 
@@ -53,23 +59,21 @@ export default function MobileModal({ brands, gclid }: MobileModalProps) {
         </button>
       </div>
 
-      <div className="p-4 flex-1 felt-texture">
+      <div className="p-2 flex-1 felt-texture">
         {/* Modal Hero */}
-        <div className="text-center mb-10 pt-8">
-          <div className="inline-block mb-4 text-4xl">👑</div>
-          <h2 className="text-5xl font-black italic mb-2 uppercase tracking-tighter">
-            <span className="block text-white">ELITE</span>
-            <span className="block cyan-text">SPINS</span>
+        <div className="text-center mb-6 pt-4">
+          <h2 className="text-2xl md:text-4xl font-black italic mb-1 uppercase tracking-tighter">
+            <span className="text-white">NEW INSTANT</span> <span className="cyan-text">WITHDRAWAL</span>
           </h2>
-          <p className="text-[10px] text-white/40 uppercase tracking-[0.4em] font-black">
-            exclusive mobile access granted
+          <p className="text-[8px] text-white/30 uppercase tracking-[0.3em] font-black">
+            exclusive mobile access
           </p>
         </div>
 
         {/* Mobile Brand Cards */}
-        <div className="flex flex-col gap-6 mb-12">
+        <div className="flex flex-col gap-3 mb-8">
           {mobileBrands.map((brand, index) => (
-            <div key={brand.id} className="transform scale-95 origin-center">
+            <div key={brand.id}>
               <BrandCard brand={brand} index={index} gclid={gclid} />
             </div>
           ))}
