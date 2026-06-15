@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Brand } from '@/app/data/brands';
 import BrandCard from './BrandCard';
 
