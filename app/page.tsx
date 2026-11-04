@@ -37,16 +37,8 @@ export default async function Home({ searchParams }: HomeProps) {
         <Hero />
         
         {/* Brand Cards Grid */}
-        <section id="brands" className="py-10 bg-[#050a14] relative">
+        <section id="brands" className="pt-2 pb-10 bg-[#050a14] relative">
           <div className="container mx-auto px-4">
-            <div className="text-center mb-10">
-              <h2 className="text-3xl md:text-5xl font-black italic uppercase tracking-tighter mb-2">
-                OUR <span className="cyan-text">TOP RATED</span> <span className="gold-text">CASINOS</span>
-              </h2>
-              <p className="text-[10px] font-black text-white/30 uppercase tracking-[0.5em]">
-                updated: June 2026 | verified by experts
-              </p>
-            </div>
             <div className="flex flex-col gap-6 max-w-6xl mx-auto">
               {filteredBrands.map((brand, index) => (
                 <BrandCard 

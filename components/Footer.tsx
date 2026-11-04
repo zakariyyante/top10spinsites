@@ -64,7 +64,7 @@ export default function Footer() {
             <h4 className="text-white font-black uppercase tracking-[0.2em] text-xs mb-8 border-l-2 border-accent pl-4">Legal Disclaimer</h4>
             <div className="bg-white/5 rounded-2xl p-6 border border-white/5">
               <p className="text-[10px] text-white/30 leading-relaxed uppercase tracking-widest font-bold">
-                top10spinsites.com is an independent review hub. We receive advertising compensation from the operators featured on this site. This may influence their ranking and placement. We do not feature all operators in the market. Our analysis is expert-driven but for informational use only. All featured brands are regulated by the UK Gambling Commission.
+                top10spinsites.com is an independent review hub. We receive advertising compensation from the operators featured on this site. This may influence their ranking and placement. We do not feature all operators in the market. Our analysis is expert-driven but for informational use only. All featured brands are regulated by the relevant Canadian gaming authorities.
               </p>
             </div>
           </div>

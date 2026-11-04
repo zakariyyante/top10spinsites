@@ -34,7 +34,7 @@ export default function AffiliateDisclosure() {
             <section className="space-y-4">
               <h2 className="text-2xl font-black italic gold-text uppercase tracking-tight">Impact on Rankings</h2>
               <p className="text-white/60 leading-relaxed uppercase tracking-widest text-xs font-bold">
-                The compensation we receive may impact the order in which brands are presented on our website. While we strive to provide a comprehensive list of the best spin sites, we do not feature every operator available in the UK market.
+                The compensation we receive may impact the order in which brands are presented on our website. While we strive to provide a comprehensive list of the best spin sites, we do not feature every operator available in the Canadian market.
               </p>
               <p className="text-white/60 leading-relaxed uppercase tracking-widest text-xs font-bold">
                 Our rankings are determined by a combination of our expert analysis, user feedback, and the commercial agreements we have in place with our partners.
@@ -44,7 +44,7 @@ export default function AffiliateDisclosure() {
             <section className="space-y-4">
               <h2 className="text-2xl font-black italic purple-text uppercase tracking-tight">Our Commitment to You</h2>
               <p className="text-white/60 leading-relaxed uppercase tracking-widest text-xs font-bold">
-                Despite receiving commissions, our primary goal is to provide accurate and helpful information to help you make informed decisions. We only partner with licensed and regulated UK casino operators to ensure your safety and security.
+                Despite receiving commissions, our primary goal is to provide accurate and helpful information to help you make informed decisions. We only partner with licensed and regulated Canadian casino operators to ensure your safety and security.
               </p>
             </section>
 

@@ -4,8 +4,8 @@ import { Analytics } from "@vercel/analytics/react";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Top 10 Spin Sites | UK's Best Casino Reviews 2026",
-  description: "Compare the best UK casino sites. Expert reviews, exclusive bonuses, and rapid payouts. Find your perfect spin site today.",
+  title: "Top 10 Spin Sites | Canada's Best Casino Reviews 2026",
+  description: "Compare the best Canadian casino sites. Expert reviews, exclusive bonuses, and rapid payouts. Find your perfect spin site today.",
   icons: {
     icon: '/favicon.png',
     apple: '/favicon.png',

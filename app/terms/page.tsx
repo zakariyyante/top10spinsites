@@ -45,7 +45,7 @@ export default function TermsOfService() {
 
             <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
               <p className="text-[10px] text-white/30 uppercase tracking-[0.3em] font-bold text-center">
-                Governed by the laws of the United Kingdom.
+                Governed by the laws of Canada.
               </p>
             </div>
           </div>
